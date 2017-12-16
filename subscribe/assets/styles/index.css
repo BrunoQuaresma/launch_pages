@@ -1,0 +1,14 @@
+html,
+body {
+  background: #693a76;
+}
+
+button {
+  cursor: pointer;
+}
+
+img.img-rounded {
+  border-radius: 9999px;
+  width: 100%;
+  display: block;
+}
