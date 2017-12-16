@@ -12,3 +12,18 @@ img.img-rounded {
   width: 100%;
   display: block;
 }
+
+.text-colored {
+  color: #94c017;
+}
+
+.btn-colored {
+  background-color: #94c017;
+  border-color: #82a914;
+  color: #FFF;
+}
+
+.btn-colored:hover {
+  background-color: #82a914;
+  border-color: #82a914;
+}

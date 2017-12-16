@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <?php include_once('./scripts/google_analytics.php') ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -17,23 +18,24 @@
       <div class="card mt-5 mb-4 p-5">
         <h1 class="h3 text-center mb-4">
           3 Dicas de Como Elaborar<br>
-          <strong class="h2">um <span class="text-primary">TCC Campeão</span></strong><br>
+          <strong class="h2">um <span class="text-colored">TCC Campeão</span></strong><br>
           <small class="h5 text-muted">Workshop no dia 28/12/2017</small>
         </h1>
 
         <div id="subscribe-description">
           <p class="text-center mb-4">
-            Com 3 efetivas dicas o seu TCC será um sinônimo de sucesso e
-            que representará muito mais que a sua conclusão de curso mas, também, o início da sua vida profissional.
+            Com 3 efetivas dicas, o seu TCC será um sinônimo de sucesso,
+            que representará muito mais do que a sua conclusão de curso mas,
+            também, o início da sua vida profissional.
           </p>
 
           <form class="mb-4" id="subscribe-form">
             <div class="form-group">
-              <input name="email" type="email" required placeholder="Seu melhor e-mail" class="form-control form-control-lg">
+              <input autofocus name="email" type="email" required placeholder="Seu melhor e-mail" class="form-control form-control-lg">
             </div>
 
             <div class="form-group">
-              <button class="btn btn-primary btn-lg btn-block">Quero me inscrever</button>
+              <button class="btn btn-colored btn-lg btn-block">Quero me inscrever</button>
             </div>
 
             <div class="form-group text-center mb-0">
@@ -43,7 +45,7 @@
         </div>
 
         <div class="text-center mb-5 d-none" id="subscribe-success">
-          <div class="mb-4 text-primary">
+          <div class="mb-4 text-colored">
             <i class="fas fa-check-circle display-1"></i>
           </div>
 
