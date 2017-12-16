@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/styles/index.css">
-  <title>Document</title>
+  <title>3 Dicas de Como Elaborar um TCC Campeão - 28/12/2017</title>
+  <meta content="Com 3 efetivas dicas, o seu TCC será um sinônimo de sucesso, que representará muito mais do que a sua conclusão de curso mas, também, o início da sua vida profissional." name="description">
 </head>
 <body>
   <?php include_once('./scripts/facebook_sdk.php') ?>
