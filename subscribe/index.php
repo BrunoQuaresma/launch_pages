@@ -7,6 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#693a76" />
   <meta property="og:image" content="<?= SITE_URL ?>/assets/images/facebook-share.jpg">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1200">
@@ -21,8 +22,8 @@
   <?php include_once('./scripts/facebook_sdk.php') ?>
 
   <div class="container d-flex justify-content-center">
-    <div class="col-md-5">
-      <div class="card mt-5 mb-4 p-5">
+    <div class="col-12 col-lg-5 px-0">
+      <div class="card mt-3 mt-md-5 mb-3 mb-md-4 p-3 p-md-5">
         <h1 class="h3 text-center mb-4">
           3 Dicas de Como Elaborar<br>
           <strong class="h2">um <span class="text-colored">TCC Campeão</span></strong><br>
@@ -59,7 +60,7 @@
           <span class="h3">Sua inscrição foi realizada com sucesso!</span>
         </div>
 
-        <div>
+        <div class="overflow-hidden">
           <div
             class="fb-like"
             data-href="https://www.facebook.com/nucleopcmg"
@@ -73,7 +74,7 @@
         </div>
       </div><!-- ./card -->
 
-      <div class="text-center text-light mb-5">
+      <div class="text-center text-light mb-3 mb-md-5">
         <small>2017 Núcleo OPC mg - Todos os direitos reservados</small>
       </div>
     </div>
