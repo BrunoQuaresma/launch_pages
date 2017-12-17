@@ -1,3 +1,5 @@
+<?php require_once 'config.php' ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +7,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:image" content="<?= SITE_URL ?>/assets/images/facebook-share.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/styles/index.css">
@@ -30,7 +36,7 @@
             também, o início da sua vida profissional.
           </p>
 
-          <form class="mb-4" id="subscribe-form">
+          <form class="mb-4" id="subscribe-form" action="<?= SITE_URL ?>/api/subscribe.php">
             <div class="form-group">
               <input autofocus name="email" type="email" required placeholder="Seu melhor e-mail" class="form-control form-control-lg">
             </div>

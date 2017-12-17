@@ -7,7 +7,7 @@ $('#subscribe-form').on('submit', function(event) {
   submitButton.html('Fazendo inscrição...');
   submitButton.prop('disabled', true);
 
-  $.post('/api/subscribe.php', { email: form.email.value }, function() {
+  $.post(form.action, { email: form.email.value }, function() {
     var subscribe_description = $('#subscribe-description');
     var subscribe_success = $('#subscribe-success');
 

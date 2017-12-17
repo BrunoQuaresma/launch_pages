@@ -1,6 +1,7 @@
 html,
 body {
-  background: #693a76;
+  background: url('./../images/background.jpg') #693a76 no-repeat center center;
+  background-size: cover;
 }
 
 button {
