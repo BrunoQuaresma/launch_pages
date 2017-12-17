@@ -1,3 +1,3 @@
 <?php
 
-define('SITE_URL', 'http://www.nucleoopcmg.com.br/tcc-campeao');
+define('SITE_URL', 'http://www.workshops.nucleoopcmg.com.br/tcc-campeao');
