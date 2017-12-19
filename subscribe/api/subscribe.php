@@ -1,5 +1,7 @@
 <?php
 
+ header("Access-Control-Allow-Origin: *");
+
 if(!has_valid_params()) {
   die(error());
 }
