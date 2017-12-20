@@ -1,0 +1,35 @@
+html,
+body {
+  background: url('./../images/background.jpg') #693a76 no-repeat center center;
+  background-size: cover;
+  min-height: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+img.img-rounded {
+  border-radius: 9999px;
+  width: 100%;
+  display: block;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.text-colored {
+  color: #94c017;
+}
+
+.btn-colored {
+  background-color: #94c017;
+  border-color: #82a914;
+  color: #FFF;
+}
+
+.btn-colored:hover {
+  background-color: #82a914;
+  border-color: #82a914;
+}
