@@ -44,7 +44,7 @@
         <h1 class="text-light h2 mx-1 text-center py-2 pb-3 py-md-5">3 Dicas de Como Elaborar um <span class="text-colored">TCC Campeão</span></h1>
         <div class="col-12 col-md-10 pt-3 pt-md-1 pb-1 pb-md-5">
           <div class="embed-responsive embed-responsive-16by9 mb-5 mb-md-4">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/n8HUATGl2ew"></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N_cqHu8DNkg?autoplay=1"></iframe>
           </div>
         </div>
       </div>
