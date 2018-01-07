@@ -1,0 +1,77 @@
+.circle {
+  border-radius: 99999px;
+}
+
+ol {
+  padding-left: 1rem;
+}
+
+li {
+  margin-bottom: 0.75rem;
+}
+
+.text-colored {
+  /* color: rgb(255, 150, 0); */
+  color: #5ecd2c;
+}
+
+.navbar-brand img {
+  max-width: 250px;
+}
+
+.text-success {
+  color: rgb(67, 212, 31) !important;
+}
+
+.jumbotron,
+.bg-jumbotron {
+  background-color: rgb(243, 244, 248);
+}
+
+.bg-dark {
+  color: #FFF;
+  background-color: rgb(54, 62, 73);
+}
+
+.btn-rounded {
+  border-radius: 999px;
+}
+
+.garantee {
+  max-width: 200px;
+}
+
+.navbar-light {
+  background: #fff !important;
+}
+
+.btn-xg {
+  padding: 1rem 1.25rem;
+  font-size: 1.25rem;
+}
+
+.pagseguro {
+  max-width: 200px;
+}
+
+.office {
+  width: 400px;
+  max-width: 100%;
+}
+
+@media only screen and (min-width : 768px) {
+  .btn-xg {
+    padding: 1rem 2.5rem 1.5rem;
+    font-size: 2rem;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

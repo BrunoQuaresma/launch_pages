@@ -45,3 +45,9 @@ img.img-rounded {
   background-color: #82a914;
   border-color: #82a914;
 }
+
+.btn-xl {
+  font-size: 2rem;
+  padding: 1rem 2rem 1.25rem;
+  border-radius: 999px;
+}

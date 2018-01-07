@@ -13,5 +13,8 @@ $('#subscribe-form').on('submit', function(event) {
 
     subscribe_description.addClass('d-none');
     subscribe_success.removeClass('d-none');
+
+    document.cookie = "subscribe-tcc=true;domain=workshops.nucleoopcmg.com.br;path=/";
+    window.location.href = 'http://www.workshops.nucleoopcmg.com.br/tcc-campeao'
   });
 });

@@ -1,3 +1,5 @@
 <?php
 
-define('SITE_URL', 'http://www.workshops.nucleoopcmg.com.br/tcc-campeao/video');
+define('SITE_URL', 'http://locahost:3000');
+define('SITE_SUBSCRIBE_URL', 'http://locahost:3000/inscricao');
+define('SITE_SUBSCRIBE_ID', 'subscribe-tcc');
