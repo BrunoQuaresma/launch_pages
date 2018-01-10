@@ -59,6 +59,10 @@ li {
   max-width: 100%;
 }
 
+.link {
+  color: #333;
+}
+
 @media only screen and (min-width : 768px) {
   .btn-xg {
     padding: 1rem 2.5rem 1.5rem;

@@ -36,6 +36,10 @@
       document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '1471950206463127'); // Insert your pixel ID here.
     fbq('track', 'PageView');
+     fbq('track', 'Purchase', {
+        value: 270,
+        currency: 'BRL'
+      });
   </script>
   <noscript>
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1471950206463127&ev=PageView&noscript=1"
@@ -91,13 +95,6 @@
       © COPYRIGHT 2017 - TCC CAMPEÃO - UM PRODUTO NUCLEO OPC MG
     </div>
   </footer>
-
-  <script>
-    fbq('track', 'Purchase', {
-      value: 270,
-      currency: 'BRL'
-    });
-  </script>
 
 </body>
 
